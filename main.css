@@ -1,0 +1,36 @@
+* {
+	background: url(http://subtlepatterns.com/patterns/footer_lodyas.png);
+	font: 1em  Tahoma sans-serif;   
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	display: block;
+	background: #333;
+	color: white;
+	line-height: 200px;
+	margin: 200px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 0 10px white;
+	cursor: pointer;
+	opacity: .5s;
+	-webkit-transition: all 10s;
+	-webkit-animation: spin 5s ease-in-out infinite;
+}
+
+.container:hover {
+	background: none;
+	opacity: 1;
+}
+
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
