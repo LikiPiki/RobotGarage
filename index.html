@@ -1,29 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Saby</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/ico">
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-
+  <meta charset="utf-8">
+  <title>RobotGarage</title>
+  <link rel="stylesheet" href="<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-	<h1>Saby and html5 with CSS3</h1>
-	<h3>Chrome or Mozilla or Opera NOT explorer</h3>
-	<div class="wrapper">
-		<div class="container"></div>
-	</div>
+<div class="container">
+  <h1>Robot Garage Blog</h1>
+  <div class="tabbed">
+    <input type="radio" name="tabs" id="tab-nav-1" checked>
+    <label for="tab-nav-1">Главная</label>
+    <input type="radio" name="tabs" id="tab-nav-2">
+    <label for="tab-nav-2">RobotGarage</label>
+    <input type="radio" name="tabs" id="tab-nav-3">
+    <label for="tab-nav-3">Гостевая книга</label>
+    <input type="radio" name="tabs" id="tab-nav-4">
+    <label for="tab-nav-4">Спонсоры</label>
+    <div class="tabs">
+      <div>
+        <h2>Тизер канала</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rMVkypr4du0" frameborder="0" allowfullscreen></iframe>
+        <p>Этот сайт канала на YouTube. <a href="http://www.youtube.com/channel/UCt8w8bvoNKGSDewsRvx66RA">Вот тут</a>. Здесь можно найти множество различных роботов собранных из LegoMindStorm EVE3 и много другое!<br>Подписывайтесь на канал и ставьте лайки!<br>
+        SUBSRIBE - <a href="http://goo.gl/zW5Frg">http://goo.gl/zW5Frg</a><br>
+        ПОДПИСКА - <a href=" http://goo.gl/zW5Frg"> http://goo.gl/zW5Frg</a><br>
+        ТвиТор - <a href="http://twitter.com/SabyRus">http://twitter.com/SabyRus</a><br>
+        G+ - <a href="http://goo.gl/Xc9q2b">http://goo.gl/Xc9q2b</a><br>
 
-<script type="text/javascript">(function() {
-  if (window.pluso)if (typeof window.pluso.start == "function") return;
-  if (window.ifpluso==undefined) { window.ifpluso = 1;
-    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
-    var h=d[g]('body')[0];
-    h.appendChild(s);
-  }})();</script>
-<div class="pluso" data-background="transparent" data-options="big,round,line,horizontal,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print,googlebookmark,bobrdobr,yahoo,evernote,vkrugu,myspace,webmoney,yazakladki,liveinternet" data-title="SABY" data-description="This is SABY logo"></div>
+        </p>
+      </div>
+      <div>
+        <h2>Видео с канала</h2>
+        <h3>Плейлист RobotGarage</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FzSCrzjGFG8?list=PLuVYU8Py2jYLuIcJl6T8QEdaGR4pVXwTD" frameborder="0" allowfullscreen></iframe>
+        <p>Здесь собраны все видео с канала. Для посмотра других видео необходимо нажать плейлист и выбрать видео!</p>
+      </div>
+      <div>
+          <h2>А здесь можно оставить свой комментарий</h2>
+           <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'robotgarage'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+      </div>
+      <div>
+        <h2>Dropbox</h2>
+        <img id="sps" src="http://macradar.ru/wp-content/uploads/2013/03/dropbox_feature1.png" alt="">
+        <p>А зрителям моего канала предоставляется 2,5ГБ бесплатного облачного хранилища от DROPBOX по ссылке: <a href="https://db.tt/sqfC9Ovk">https://db.tt/sqfC9Ovk</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </body>
 </html>
