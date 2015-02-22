@@ -112,6 +112,20 @@ h1 {
     border-bottom: 2px solid #4EC6DE;
     padding-bottom: 1em;
  }
-
+  
+  .tabs > div:nth-of-type(4) {
+    display: none;
+  }
+  
+  iframe {
+    width: 350px;
+    height: 200px;
+  }
+  #sps {
+    display: none;
+  }
+  h1 {
+    width: 400px;
+  }
 
 }
