@@ -102,7 +102,7 @@ h1 {
     opacity: 1;
     position: relative;
     transform: none;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
   }
   #sps {
     margin: 5px auto;
@@ -110,7 +110,7 @@ h1 {
   
   .tabs > div h2 {
     border-bottom: 2px solid #4EC6DE;
-    padding-bottom: 1em;
+    
  }
   
   .tabs > div:nth-of-type(4) {
