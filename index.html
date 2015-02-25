@@ -2,47 +2,145 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
   <title>RobotGarage</title>
-  <link rel="stylesheet" href="<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container">
-  <h1>Robot Garage Blog</h1>
-  <div class="tabbed">
-    <input type="radio" name="tabs" id="tab-nav-1" checked>
-    <label for="tab-nav-1">Главная</label>
-    <input type="radio" name="tabs" id="tab-nav-2">
-    <label for="tab-nav-2">RobotGarage</label>
-    <input type="radio" name="tabs" id="tab-nav-3">
-    <label for="tab-nav-3">Гостевая книга</label>
-    <input type="radio" name="tabs" id="tab-nav-4">
-    <label for="tab-nav-4">Спонсоры</label>
-    <div class="tabs">
-      <div>
-        <h2>Тизер канала</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rMVkypr4du0" frameborder="0" allowfullscreen></iframe>
-        <p>Этот сайт канала на YouTube. <a href="http://www.youtube.com/channel/UCt8w8bvoNKGSDewsRvx66RA">Вот тут</a>. Здесь можно найти множество различных роботов собранных из LegoMindStorm EVE3 и много другое!<br>Подписывайтесь на канал и ставьте лайки!<br>
-        SUBSRIBE - <a href="http://goo.gl/zW5Frg">http://goo.gl/zW5Frg</a><br>
-        ПОДПИСКА - <a href=" http://goo.gl/zW5Frg"> http://goo.gl/zW5Frg</a><br>
-        ТвиТор - <a href="http://twitter.com/SabyRus">http://twitter.com/SabyRus</a><br>
-        G+ - <a href="http://goo.gl/Xc9q2b">http://goo.gl/Xc9q2b</a><br>
+  <div class="container">
+    <div class="row">
+     
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#chanel">Robot Garage</a>
+      
+    </div>
 
-        </p>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#new">Видео <span class="sr-only">(current)</span></a></li>
+        <li><a href="#ic">Комментарии</a></li>
+        <li class="dropdown">
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Искать по сайту">
+        </div>
+        <a href="#new"><button type="submit" class="btn btn-default">Поиск</button></a>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Канал на YouTube</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Справка <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+      
+    <div id="carousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel" data-slide="0"></li>
+        <li data-target="#carousel" data-slide="1"></li>
+        <li data-target="#carousel" data-slide="2"></li>
+
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/08/ev3_tracker-done.jpg" alt="">
+          <div class="carousel-caption">
+            <h1>Множество роботов</h1>
+            <p>Куча роботов созданнных из Lego Mind Storm EV3</p>
+             <button class="btn btn-primary" type="button">
+  Смотреть <span class="badge">4</span>
+</button>
+
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://cdn.arstechnica.net/wp-content/uploads/2013/08/ev3_listing.jpg" alt="">
+          <div class="carousel-caption"><h1>Куча деталей</h1>
+          <p>Помимо роботов на создаются различные модели </p>
+             <button class="btn btn-primary" type="button">
+  Смотреть <span class="badge">7</span>
+</button>
+
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://reardenin.com/wp-content/uploads/2015/02/clean-code.jpg" alt="">
+          <div class="carousel-caption"><h1>Программируемые роботы</h1>
+          <p>Роботы которые наделены искусственным интелектом</p>
+            <button class="btn btn-primary" type="button">
+              Смотреть <span class="badge">10</span>
+</button>
+          </div>
+        </div>
       </div>
-      <div>
-        <h2>Видео с канала</h2>
-        <h3>Плейлист RobotGarage</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FzSCrzjGFG8?list=PLuVYU8Py2jYLuIcJl6T8QEdaGR4pVXwTD" frameborder="0" allowfullscreen></iframe>
-        <p>Здесь собраны все видео с канала. Для посмотра других видео необходимо нажать плейлист и выбрать видео!</p>
+       <a href="#carousel" class="left carousel-control" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left"></span>
+       </a>
+       <a href="#carousel" class="right carousel-control" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span>
+       </a>
+    </div>
+      <div class="container" id="main-container">
+        <div class="jumbotron" id="chanel">
+          <h1>Robot Garage Channel <span class="label label-default">NEW</span></h1>
+          <p>Куча роботов созданнных из Lego Mind Storm EV3. Которые ходят, ездят, и  делают многое другое под хорошую музыку! И не только. </p>
+          <p><a class="btn btn-primary btn-lg" href="http://www.youtube.com/user/MrRobotgarage?annotation_id=annotation_3211529475&feature=iv&src_vid=rMVkypr4du0&sub_confirmation=1" role="button">Подписаться на канал!</a></p>
+
+        </div>
       </div>
-      <div>
-          <h2>А здесь можно оставить свой комментарий</h2>
-          <div id="disqus_thread"></div>
+  </div>
+        <div class="jumbotron" id="new">
+          <h1>Свежее видео <span class="label label-default">NEW</span></h1>
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/7qMd1_cDY24?list=UUt8w8bvoNKGSDewsRvx66RA" frameborder="0" allowfullscreen></iframe>
+          <p>Для перехода к другому видео нажать плейлист и выбрать видео.</p>
+          <a href="#ic"><button type="button" class="btn btn-primary">Комментировать</button></a>
+          <button type="button" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span> </button>
+          <h1>Robot Garage</h1>
+                   <iframe width="640" height="360" src="https://www.youtube.com/embed/3fXliPPvzyE?list=PLuVYU8Py2jYIxmrdOw2g88NgSgdBvAlic" frameborder="0" allowfullscreen></iframe>
+          <p>Для перехода к другому видео нажать плейлист и выбрать видео.</p>
+          <a href="#ic"><button type="button" class="btn btn-primary">Комментировать</button></a>
+           <button type="button" class="btn btn-warning">Like <span class="glyphicon glyphicon-thumbs-up"></span> </button>
+      </div>
+    
+      <div class="container">
+    </div>
+      <h1>Популярность видео</h1>
+    <div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+    <span class="sr-only">80% Complete (success)</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+    <span class="sr-only">60% Complete (warning)</span>
+  </div>
+</div>
+
+  
+            <div class="jumbotron" id="ic">
+<p>Здесь можно просто оставить свой комментарий к любому видео! А также для всех зрителей моего канала Dropbox предоставляет <span class="label label-default">2,5ГБ бесплатного</span> места в облаке по ссылке! <a href="https://db.tt/sqfC9Ovk"><span class="glyphicon glyphicon-gift"></span> https://db.tt/sqfC9Ovk </a></p>
+              <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'sabyrusblog'; // required: replace example with your forum shortname
+        var disqus_shortname = 'sabyrobotgarage'; // required: replace example with your forum shortname
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
@@ -51,18 +149,13 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
     
-      </div>
-      <div>
-        <h2>Dropbox</h2>
-        <img id="sps" src="http://macradar.ru/wp-content/uploads/2013/03/dropbox_feature1.png" alt="">
-        <p>А зрителям моего канала предоставляется 2,5ГБ бесплатного облачного хранилища от DROPBOX по ссылке: <a href="https://db.tt/sqfC9Ovk">https://db.tt/sqfC9Ovk</a></p>
-      </div>
-    </div>
+    
   </div>
-  </div>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+ <!-- Вставить комментарии от дисскус-->
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.js"></script>
 </body>
 </html>
